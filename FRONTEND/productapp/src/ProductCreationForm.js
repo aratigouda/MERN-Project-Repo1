@@ -24,7 +24,7 @@ function ProductCreationForm(){
 
     function sendData(){
         //send to all the detail to the bavkend
-        Axios.post("http://localhost:5000/collect/product", {
+        Axios.post("https://mern-project-repo1-backend.onrender.com/collect/product", {
             name: name,
            price: price,
           description: description,
