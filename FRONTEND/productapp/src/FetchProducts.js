@@ -4,7 +4,7 @@ import "./output.css"
 function FetchProducts() {
 
     let [allProducts, setAllProducts] = useState([])
-    Axios.get('http://localhost:5000/fetch/product')
+    Axios.get('https://mern-project-repo1-backend.onrender.com/fetch/product')
 
         //console.log(outputProducts)
         .then(function (output) {
